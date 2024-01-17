@@ -1,0 +1,39 @@
+<div class="container">
+    <div class="title">
+        <h1>PradyRestro</h1>
+        <p>Ambajogai - Latur Rd, Latur, Maharashtra 413531</p>
+        <p class="phone">Phone No :- 9021093921</p>
+    </div><hr class="hr">
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Item Name</th>
+                <th>Oty</th>
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of products; let i=index;">
+                <td>{{i+1}}</td>
+                <td>{{item.title}}</td>
+                <td>{{item.quantity}}</td>
+                <td>{{item.price}}</td>
+                <td>{{item.total}}</td>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td>
+                    <button class="btn btn-danger" (click)="emptyBill()">Delete</button>
+                </td>
+                <td>
+                    <button class="btn btn-primary" routerLink="/products">Order</button>
+                </td>
+                <td>
+                    <strong>grand Total :{{grandTotal}}</strong>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

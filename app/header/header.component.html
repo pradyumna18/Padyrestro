@@ -1,0 +1,20 @@
+<header>
+    <h1>PradyRestro</h1>
+    <ul class="nav">
+        <li>
+            <a href="#">Home</a>
+        </li>
+        <li>
+            <a routerLink="/bills">Bills</a>
+        </li>
+        <li>
+            <a href="#">Service</a>
+        </li>
+        <li>
+            <a href="#">Contact</a>
+        </li>
+    </ul>
+    <div class="search">
+        <input type="text" [(ngModel)]="searchItem" (keyup)="search($event)" placeholder="Search Here....">
+    </div>
+  </header>

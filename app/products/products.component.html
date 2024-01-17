@@ -1,0 +1,47 @@
+<div class="card-top container-fluid">
+    <div class="container d-flex">
+        <div class="item">
+            <a (click)="filter('')">
+                <img src="assets\all foods.jpeg" alt="">
+                <h5>All Items</h5>
+            </a>
+        </div>
+        <div class="item">
+            <a (click)="filter('chines')">
+                <img src="assets\download.jpeg" alt="">
+                <h5>Chinese Items</h5>
+            </a>
+
+        </div>
+        <div class="item">
+            <a (click)="filter('hotel')">
+                <img src="assets\panner foods.jpeg" alt="">
+                <h5>Hotel Items</h5>
+            </a>
+        
+        </div>
+        <div class="item">
+            <a (click)="filter('sweet')">
+                <img src="assets\sweet foods.jpeg" alt="">
+                <h5>Sweets Items</h5>
+            </a>
+        
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="container">
+    <div class="row">
+        <ng-container *ngFor="let item of filterCategory | filter:searchKey:'title'">
+            <div class="card col-md-3">
+                <img src="{{item.image}}">
+                <h3>{{item.title}}</h3>
+                <p>Price :- <span>&#8377;</span> {{item.price}}</p>
+                <button class="btn btn-primary" (click)="addItem(item)">ADD ITEM</button>
+            </div>
+        </ng-container>
+    </div>
+</div>

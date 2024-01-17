@@ -1,0 +1,40 @@
+.card-top{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width:0;
+    word-wrap: break-word;
+    padding-top: 10px;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.401);
+    border-radius: 0.25rem;
+}
+.item img{
+    width:60%;
+    height: 100px;
+}
+.item{
+    margin: 0px 70px;
+    text-align: center;
+}
+.card h3 , p{
+    white-space:nowrap;
+    overflow:hidden ;
+    text-overflow: ellipsis;
+    max-width: 100ch;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+    transition: 0.3s ease-in-out;
+}
+.card{
+    padding: 20px;
+    margin: 50px;
+}
+.item a{
+    text-decoration: none;
+    cursor: pointer;
+}

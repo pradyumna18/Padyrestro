@@ -1,0 +1,236 @@
+{
+  "foods": [
+    {
+      "id": 1,
+      "title": "AlooDum",
+      "category":"hotel",
+      "price": "75",
+      "image":"assets/aloo dam.jpeg"
+  },
+    {
+      "id": 2,
+      "title": "OnionBhaje",
+      "category":"hotel",
+      "price": "40",
+      "image":"assets/bhaje.jpeg"
+  },
+    {
+      "id":3,
+      "title": "BenganMasala",
+      "category":"hotel",
+      "price": "90",
+      "image":"assets/bengan masla.jpeg"
+  },
+    {
+      "id": 4,
+      "title": "Bhakari",
+      "category":"hotel",
+      "price": "30",
+      "image":"assets/bhakari.jpeg"
+  },
+    {
+      "id": 5,
+      "title": "ButterNaan",
+      "category":"hotel",
+      "price": "20",
+      "image":"assets/butter naan.jpeg"
+  },
+    {
+      "id": 6,
+      "title": "ButterRoti",
+      "category":"hotel",
+      "price": "25",
+      "image":"assets/butter tanddor roti.jpeg"
+  },
+    {
+      "id": 7,
+      "title": "MasalaDosa",
+      "category":"hotel",
+      "price": "100",
+      "image":"assets/dosa.jpeg"
+  },
+ {
+      "id": 8,
+      "title": "Chowmean",
+      "price": "56",
+      "category":"chines",
+      "image":"assets/chow.jpeg"
+  },
+ {
+      "id": 9,
+      "title": "DalTadka",
+      "category":"hotel",
+      "price": "110",
+      "image":"assets/dal  tadka.jpeg"
+  },
+ 
+ {
+      "id": 10,
+      "title": "DalKhichadi",
+      "category":"hotel",
+      "price": "130",
+      "image":"assets/dal khichadi.jpeg"
+  },
+  {
+      "id": 11,
+      "title": "Fafda",
+      "category":"hotel",
+      "price": "105",
+      "image":"assets/fafda.jpeg"
+  },
+  {
+      "id": 12,
+      "title": "FrenchFires",
+      "category":"chines",
+      "price": "70",
+      "image":"assets/firs.jpeg"
+  },
+  {
+      "id": 13,
+      "title": "FrideRice",
+      "category":"chines",
+      "price": "60",
+      "image":"assets/friede rice.jpeg"
+  },
+  {
+      "id": 14,
+      "title": "GarlicNaan",
+      "category":"hotel",
+      "price": "15",
+      "image":"assets/garlic naan.jpeg"
+  },
+  {
+      "id": 15,
+      "title": "Gobi 65",
+      "category":"chines",
+      "price": "50",
+      "image":"assets/gobi 65.jpeg"
+  },
+  {
+      "id": 16,
+      "title": "GujabJamun",
+      "category":"sweet",
+      "price": "80",
+      "image":"assets/gulab jamun.jpeg"
+  },
+  {
+      "id": 17,
+      "title": "Idli",
+      "category":"hotel",
+      "price": "35",
+      "image":"assets/idli.jpeg"
+  },
+  {
+      "id": 18,
+      "title": "Jelebi",
+      "category":"sweet",
+      "price": "75",
+      "image":"assets/jelebi.jpeg"
+  },
+  {
+      "id": 19,
+      "title": "JiraRice",
+      "category":"hotel",
+      "price": "140",
+      "image":"assets/jira rice.jpeg"
+  },
+  {
+      "id": 20,
+      "title": "KajuMasala",
+      "category":"hotel",
+      "price": "250",
+      "image":"assets/kaju masala.jpeg"
+  },
+  {
+      "id": 21,
+      "title": "Kofta",
+      "category":"hotel",
+      "price": "160",
+      "image":"assets/kofta.jpeg"
+  },
+ 
+ {
+      "id": 22,
+      "title": "Kofta",
+      "category":"hotel",
+      "price": "160",
+      "image":"assets/kofta.jpeg"
+  },
+{
+      "id": 21,
+      "title": "VegKolhapuri",
+      "category":"hotel",
+      "price": "176",
+      "image":"assets/kolhapuri.jpeg"
+  },
+{
+      "id": 22,
+      "title": "Manchurian",
+      "category":"chines",
+      "price": "80",
+      "image":"assets/manchurien.jpeg"
+  },
+{
+      "id": 23,
+      "title": "Mix Veg",
+      "category":"hotel",
+      "price": "220",
+      "image":"assets/kofta.jpeg"
+  },
+{
+      "id": 24,
+      "title": "PannerMasala",
+      "category":"hotel",
+      "price": "270",
+      "image":"assets/panner masala.jpeg"
+  },
+{
+      "id": 25,
+      "title": "PalakPanner",
+      "category":"hotel",
+      "price": "260",
+      "image":"assets/palak panner.jpeg"
+  },
+{
+      "id": 26,
+      "title": "PannerTikka",
+      "category":"hotel",
+      "price": "140",
+      "image":"assets/panner tiika.jpeg"
+  },
+{
+      "id": 27,
+      "title": "ShaiPanner",
+      "category":"hotel",
+      "price": "280",
+      "image":"assets/panner tiika.jpeg"
+  },
+{
+      "id": 28,
+      "title": "Rabbdi",
+      "price": "145",
+      "image":"assets/rabdi.jpeg"
+  },
+{
+      "id": 29,
+      "title": "Rasgulla",
+      "category":"sweet",
+      "price": "160",
+      "image":"assets/rasgulle.jpeg"
+  },
+{
+      "id": 30,
+      "title": "Tanddor Roti",
+      "price": "20",
+      "image":"assets/tandoor roti.jpeg"
+  },
+{
+      "id": 31,
+      "title": "Undhiyu",
+      "category":"hotel",
+      "price": "170",
+      "image":"assets/undhiyu.jpeg"
+  }
+  ]
+
+}
